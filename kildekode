@@ -1,1 +1,12 @@
-Hello World?
+hentRomNoekkelMed(navn) {
+  sql = """SELECT * FROM rom_noekkel WHERE gjest_navn = ${navn}"""
+
+  databaseRader = db(sql)
+  resultat = databaseRader.tilRomNoekkel()
+  return resultat
+}
+
+@GET("http://resepsjon/rom_noekkel?gjest_navn={navn}") {
+	romNoekkel = hentRomNoekkelForGjestMed(navn)
+	return romNoekkel
+}
