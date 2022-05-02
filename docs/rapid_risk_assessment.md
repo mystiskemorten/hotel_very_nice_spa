@@ -3,7 +3,6 @@
 | **Owner**                       |          |
 | **Risk owner**                  |          |
 | **Service Data Classification** |          |
-| **Highest Risk Impact**         |          |
 
 
 ## Service notes (2-5 minutes)
