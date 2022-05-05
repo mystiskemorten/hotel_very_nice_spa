@@ -6,7 +6,7 @@
 
 
 ## Service notes (2-5 minutes)
-Kort om tjenesten
+Hotellsystem for å holde styr på gjester og bookinger. Og tilgang til spaet. 
 
 ## Data Flow Diagram (DFD)
 Veldig enkel illustrasjon av dataflyten i tjenesten.
@@ -25,7 +25,9 @@ Data classification types (see your projects definition - every organization has
 
 | Data name/type | Classification | Comments |
 |----------------|----------------|----------|
-|                |                |          |
+| Guest data     | `STRICTLY CONFIDENTIAL` | Personal data |
+| Bank information | `STRICTLY CONFIDENTIAL` |          |
+| Employee data  | `INTERNAL`     |          |
 
 
 ## Threat/risk scenarios and preventive measures (10-20 min)
