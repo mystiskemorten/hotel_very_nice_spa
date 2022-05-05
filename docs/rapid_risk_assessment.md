@@ -1,8 +1,8 @@
 | Service Owner(s)                | CTF-team |
 |---------------------------------|----------|
-| **Owner**                       |          |
-| **Risk owner**                  |          |
-| **Service Data Classification** |          |
+| **Owner**                       | Alice    |
+| **Risk owner**                  | Bob      |
+| **Service Data Classification** | `STRICTLY CONFIDENTIAL` |
 
 
 ## Service notes (2-5 minutes)
@@ -43,8 +43,8 @@ Find appropriate scenarios for your system affecting **confidentiality, integrit
 
 | Scenario | Risk driver (årsak) | Assessment - What may happen if we don't implement the controls? | Preventive measures (issues) |
 | ------ | ------ | ------ | ------ | 
-|  |  |  | 
-|  |  |  | 
+| Vi blir utsatt for ransomwareangrep | Jeg er bekymret for at backup-rutinene våre feiler | Vi mister all koden vår, all daten vår. Vi går konkurs. Erna Solberg sin personlige data lekker | Sjekk at backuprutinen funker. | 
+| Angriper lekker test-data | Vi har prod-data i test-basen vår | Erna Solberg sin personlige data selges på darkweb | Bruk syntetisk data |
 |  |  |  | 
 |  |  |  | 
 
