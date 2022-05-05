@@ -28,6 +28,7 @@ Data classification types (see your projects definition - every organization has
 | Guest data     | `STRICTLY CONFIDENTIAL` | Personal data |
 | Bank information | `STRICTLY CONFIDENTIAL` |          |
 | Employee data  | `INTERNAL`     |          |
+| Access token   | `STRICTLY CONFIDENTIAL` | Stored in Azure Key Vault |
 
 
 ## Threat/risk scenarios and preventive measures (10-20 min)
