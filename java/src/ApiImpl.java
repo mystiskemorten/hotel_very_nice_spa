@@ -1,12 +1,9 @@
 import model.Invoice;
 import model.Reservation;
 import model.UserObject;
-import model.WebApplicationException;
 
-import java.nio.charset.StandardCharsets;
+import java.util.Collections;
 import java.util.List;
-import java.util.Optional;
-import java.util.stream.Collectors;
 
 public abstract class ApiImpl implements AuthenticatedApi{
 
@@ -38,6 +35,7 @@ public abstract class ApiImpl implements AuthenticatedApi{
 
     public boolean payInvoice(int invoiceId){
         //TODO
+        return false;
     }
 
 }

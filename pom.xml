@@ -8,7 +8,7 @@
     <artifactId>hotelapi</artifactId>
     <version>1.0-SNAPSHOT</version>
     <build>
-        <sourceDirectory>src</sourceDirectory>
+        <sourceDirectory>java/src</sourceDirectory>
     </build>
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
