@@ -30,19 +30,10 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Run Trivy config scan
+      - name: Run Trivy scan
         uses: aquasecurity/trivy-action@7b7aa264d83dc58691451798b4d117d53d21edfe
         with:
-          scan-type: 'config'
-          scan-ref: '.'
-          format: 'sarif'
-          output: 'trivy-results.sarif'
-          severity: 'MEDIUM,CRITICAL,HIGH'
-
-      - name: Run Trivy fs scan
-        uses: aquasecurity/trivy-action@7b7aa264d83dc58691451798b4d117d53d21edfe
-        with:
-          scan-type: 'fs'
+          scanners: 'vuln,secret,config'
           scan-ref: '.'
           format: 'sarif'
           output: 'trivy-results.sarif'
